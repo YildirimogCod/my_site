@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Hero = () => {
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse lg:flex-row gap-14 lg:gap-0 items-center justify-between mt-7">
+    <div className="min-h-[80vh] flex flex-col-reverse lg:flex-row gap-14 lg:gap-0 items-center justify-between mt-7">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
           Nice to meet you! 🖐 <br />{" "}
@@ -12,7 +12,7 @@ const Hero = () => {
             {"I'm Oğuzhan"}
           </span>
         </h1>
-        <p className="md:w-96 text-lg text-gray-300">
+        <p className="md:w-96 text-lg text-gray-300 mt-3">
           {
             "Based in Istanbul, I'm front-end developer passionate about building a modern web application that users love."
           }
