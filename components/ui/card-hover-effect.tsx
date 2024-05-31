@@ -10,7 +10,7 @@ export const HoverEffect = ({
 }: {
   items: {
     text: string;
-    icon: IconType;
+    Icon: IconType;
   }[];
   className?: string;
 }) => {
